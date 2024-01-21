@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function - Variable</title>
+</head>
+<body>
+  <script>		 
+    var x = 10;
+
+		function displayNumber() { 								
+      console.log("x is " + x);
+      console.log("y is " + y);   // 선언되지 않은 변수 y 사용
+      let y = 20;   // y 변수 선언 -> 오류!
+		}
+    displayNumber();
+  </script>
+</body>
+</html>
